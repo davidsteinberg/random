@@ -5,7 +5,7 @@ random operations. You can import individual functions from the module or import
 the default object and call methods on it:
 
 ```ts
-import { coin, color } from "./mod.ts";
+import { coin, color } from "https://davidsteinberg.github.io/random/mod.ts";
 
 if (coin()) {
   const bg = color(0, 150);
@@ -13,7 +13,7 @@ if (coin()) {
 ```
 
 ```ts
-import random from "./mod.ts";
+import random from "https://davidsteinberg.github.io/random/mod.ts";
 
 if (random.coin()) {
   const bg = random.color(0, 150);
